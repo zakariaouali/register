@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register Page</title>
+        <style>
+            body{background: url(imgs/background.JPG) repeat;
+            background-position: center;
+            background-size: cover;}
+            h2{color: white; font-family: Arial, Helvetica, sans-serif; text-align: center; font-size: 25px;}
+            p{font-family: Arial, Helvetica, sans-serif;}
+            .login-box{
+                width: 500px;    
+                height: 500px;
+                background: transparent;
+                border: 2px;
+                border-radius: 20px
+                
+            }
+            section{
+                background: url(imgs/background.JPG);
+                border: 1px rgb(245, 245, 245) solid;
+                border-radius: 20px;
+                width: 500px;    
+                height: 500px;
+                margin-left: 33%;
+                margin-top: 0px;
+                display: flex;
+            }
+            input{
+                
+                right: 8px;
+                color: #fff;
+                background: transparent;
+                border-color: rgb(35, 103, 158);
+                width: 400px;
+                border-bottom: 2px solid #fff;
+                font-size: 1em;
+                border-top: none;
+                border-left: none ;
+                border-right: none;
+                vertical-align: middle;
+            }
+            button{cursor: pointer;
+            font-size: 20px;
+            width: 230px;
+            margin-left: 15px;
+            margin-top: 20px;
+            background-color: rgb(62, 2, 119);
+            color: #fff;
+            border-radius: 30px;
+            }
+            label{color: wheat; font-family: Arial, Helvetica, sans-serif; font-weight: bolder;}
+        </style>
+    </head>
+        <body>
+            <p style=" color: white; text-align: center; font-size: 48px; font-family:Georgia, 'Times New Roman', Times, serif;">Welcome to Our Website</p>
+            <p style="
+             color: white; text-align: 
+             center; font-size: 18px; font-family:Georgia, 'Times New Roman', Times, serif;">
+            if you have an account <br>
+             please <a href="Login.html" target="_blank" style="color: aqua;"> Login</a>
+            </p>
+            <section>
+                <div class="login-box">
+                    <h2>Register</h2>
+                    <label for="name" style="margin-left: px;">Fullname :</label>
+                    <input  type="text" id="name" style="margin-top: 50px;">
+<br> <br><br>
+                    <label for="Email">Email :</label>
+                    <input type="email" id="Email" style="margin-left: 25px;">
+<br><br><br>
+                    <label for="password">password :</label>
+                    <input type="password" id="password" >
+<br><br> <br>
+                    <label for="age">Age :</label>
+                    <input type="number" id="age" style="margin-left: 40px;">
+<br><br> <br>
+                    <label for="Datebirth">BirthDate :</label>
+                    <input type="date" id="Datebirth" >
+<br><br> <br>
+                    <label for="Photo">Your image :</label>
+                    <input type="file" id="Photo">
+                    <button>sign in</button>
+                    <button>Reset</button>
+                </div>
+            </section>
+            
+        </body>
+</html>
